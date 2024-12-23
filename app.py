@@ -23,4 +23,5 @@ if plot:
         state_df=df[df['State']==selected_state]
         fig = px.scatter_mapbox(state_df, lat="Latitude", lon="Longitude", size=primary, color=secondary,
                                 size_max=35, width=1200, height=700, zoom=3, mapbox_style='carto-positron',hover_name='District')
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True) 
+        'anamika saxena'
